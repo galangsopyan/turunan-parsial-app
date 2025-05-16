@@ -28,9 +28,6 @@ try:
     st.write("Gradien di titik (x₀, y₀):", f"({fx_val}, {fy_val})")
 
     st.subheader("📈 Grafik Permukaan & Bidang Singgung")
-
-except Exception as e:
-    st.error(f"Terjadi kesalahan: {e}")
     
     x_vals = np.linspace(x0 - 2, x0 + 2, 50)
     y_vals = np.linspace(y0 - 2, y0 + 2, 50)
